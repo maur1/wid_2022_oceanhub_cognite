@@ -1,0 +1,67 @@
+Table  Authors_LUT  has the following columns:  Index(['Authors_ID', 'Last_Name', 'First_Name', 'Middle_Initial', 'TRIAL485'], dtype='object')
+Table  Bleaching_Level_LUT  has the following columns:  Index(['Bleaching_Level_ID', 'Bleaching_Level', 'TRIAL485'], dtype='object')
+Table  Bleaching_Prevalence_Score_LUT  has the following columns:  Index(['Bleaching_Prevalence_ID', 'Bleaching_Prevalence_Score', 'TRIAL485'], dtype='object')
+Table  Bleaching_tbl  has the following columns:  Index(['Bleaching_ID', 'Sample_ID', 'Bleaching_Level', 'S1', 'S2', 'S3', 'S4',
+       'Percent_Bleaching_Old_Method', 'Severity_Code', 'Percent_Bleached',
+       'Number__Bleached_Colonies', 'bleach_intensity',
+       'Bleaching_Prevalence_Score', 'TRIAL485'],
+      dtype='object')
+Table  City_Town_Name_LUT  has the following columns:  Index(['City_Town_ID', 'City_Town_Name', 'TRIAL495'], dtype='object')
+Table  Country_Name_LUT  has the following columns:  Index(['Country_ID', 'Country_Name', 'TRIAL495'], dtype='object')
+Table  Cover_tbl  has the following columns:  Index(['Cover_ID', 'Sample_ID', 'Percent_Hard_Coral', 'Percent_Macroalgae',
+       'Substrate_Type', 'S1', 'S2', 'S3', 'S4', 'Comments', 'TRIAL495'],
+      dtype='object')
+Table  Data_Source_LUT  has the following columns:  Index(['Data_Source_ID', 'Data_Source', 'Sample_Method', 'TRIAL501'], dtype='object')
+Table  Ecoregion_Name_LUT  has the following columns:  Index(['Ecoregion_ID', 'Ecoregion_Name', 'TRIAL501'], dtype='object')
+Table  Environmental_tbl  has the following columns:  Index(['Environmental_ID', 'Sample_ID', 'ClimSST', 'Temperature_Kelvin',
+       'Temperature_Mean', 'Temperature_Minimum', 'Temperature_Maximum',
+       'Temperature_Kelvin_Standard_Deviation', 'Windspeed', 'SSTA',
+       'SSTA_Standard_Deviation', 'SSTA_Mean', 'SSTA_Minimum', 'SSTA_Maximum',
+       'SSTA_Frequency', 'SSTA_Frequency_Standard_Deviation',
+       'SSTA_FrequencyMax', 'SSTA_FrequencyMean', 'SSTA_DHW',
+       'SSTA_DHW_Standard_Deviation', 'SSTA_DHWMax', 'SSTA_DHWMean', 'TSA',
+       'TSA_Standard_Deviation', 'TSA_Minimum', 'TSA_Maximum', 'TSA_Mean',
+       'TSA_Frequency', 'TSA_Frequency_Standard_Deviation', 'TSA_FrequencyMax',
+       'TSA_FrequencyMean', 'TSA_DHW', 'TSA_DHW_Standard_Deviation',
+       'TSA_DHWMax', 'TSA_DHWMean', 'TRIAL501'],
+      dtype='object')
+Table  Exposure_LUT  has the following columns:  Index(['Exposure_ID', 'Exposure', 'TRIAL524'], dtype='object')
+Table  Ocean_Name_LUT  has the following columns:  Index(['Ocean_ID', 'Ocean_Name', 'TRIAL524'], dtype='object')
+Table  R_Scripts_tbl  has the following columns:  Index(['R_Scripts_ID', 'Relevant_Papers_ID', 'Project_Name', 'Paper_Title',
+       'Code_Name', 'Description', 'Data_Source', 'R_Code', 'URL', 'TRIAL524'],
+      dtype='object')
+Table  Realm_Name_LUT  has the following columns:  Index(['Realm_ID', 'Realm_Name', 'TRIAL524'], dtype='object')
+Table  Sample_Event_tbl  has the following columns:  Index(['Sample_ID', 'Site_ID', 'Reef_ID', 'Date_Day', 'Date_Month',
+       'Date_Year', 'Depth_m', 'Quadrat_No', 'Comments', 'TRIAL528'],
+      dtype='object')
+Table  Severity_Code_LUT  has the following columns:  Index(['Severity_ID', 'Severity_Code', 'TRIAL531'], dtype='object')
+Table  Site_Info_tbl  has the following columns:  Index(['Site_ID', 'Data_Source', 'Latitude_Degrees', 'Longitude_Degrees',
+       'Ocean_Name', 'Realm_Name', 'Ecoregion_Name', 'Country_Name',
+       'State_Island_Province_Name', 'City_Town_Name', 'City_Town_Name_2',
+       'City_Town_Name_3', 'City_Town_Name_4', 'Site_Name',
+       'Distance_to_Shore', 'Exposure', 'Turbidity', 'Cyclone_Frequency',
+       'Comments', 'TRIAL534'],
+      dtype='object')
+Table  State_Island_Province_Name_LUT  has the following columns:  Index(['State_Island_Province_ID', 'State_Island_Province_Name', 'TRIAL541'], dtype='object')
+Table  Substrate_Type_LUT  has the following columns:  Index(['Substrate_ID', 'Substrate_Name', 'TRIAL541'], dtype='object')
+Table  Query_2_Sample_Event_Counts  has the following columns:  Index(['Site_ID', 'CountOfSample_ID', 'TRIAL541'], dtype='object')
+Table  Query_3_Time_Series  has the following columns:  Index(['Site_ID', 'Sample_ID', 'CountOfSample_ID', 'Data_Source',
+       'Latitude_Degrees', 'Longitude_Degrees', 'Site_Name', 'Reef_ID',
+       'Date_Day', 'Date_Month', 'Date_Year', 'Depth_m', 'TRIAL544'],
+      dtype='object')
+Table  Query_4_Samples_by_Data_Source  has the following columns:  Index(['Data_Source', 'Sample_count', 'TRIAL547'], dtype='object')
+Table  Query_5_Sites_by_Data_Source  has the following columns:  Index(['Data_Source', 'Site_count', 'TRIAL547'], dtype='object')
+Table  Query_6_Sites_with_Multiple_Sample_Events  has the following columns:  Index(['Site_ID', 'CountOfSample_ID', 'Data_Source', 'Latitude_Degrees',
+       'Longitude_Degrees', 'Ocean_Name', 'Realm_Name', 'Ecoregion_Name',
+       'Country_Name', 'State_Island_Province_Name', 'Date_Day', 'Date_Month',
+       'Date_Year', 'Depth_m', 'TRIAL547'],
+      dtype='object')
+Table  Subquery_1_Sites_and_Sample_Events  has the following columns:  Index(['Site_ID', 'Sample_ID', 'Data_Source', 'Latitude_Degrees',
+       'Longitude_Degrees', 'Reef_ID', 'Ocean_Name', 'Realm_Name',
+       'Country_Name', 'Site_Name', 'Date_Day', 'Date_Month', 'Date_Year',
+       'Depth_m', 'TRIAL554'],
+      dtype='object')
+Table  Subquery_6_Calculated_Reef_Check_Segments  has the following columns:  Index(['Sample_ID', 'Cover_ID', 'Substrate_Name', 'S1', 'Calculated_S1', 'S2',
+       'Calculated_S2', 'S3', 'Calculated_S3', 'S4', 'Calculated_S4',
+       'TRIAL564'],
+      dtype='object')

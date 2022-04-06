@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "wid-2022"
+version = "0.1.0"
+description = ""
+authors = ["Sabina Dinu <sabina.dinu@cognite.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.1"
+ipykernel = "^6.9.2"
+
+[tool.poetry.dev-dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
