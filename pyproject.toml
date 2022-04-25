@@ -8,6 +8,11 @@ authors = ["Sabina Dinu <sabina.dinu@cognite.com>"]
 python = "^3.9"
 pandas = "^1.4.1"
 ipykernel = "^6.9.2"
+seaborn = "^0.11.2"
+sklearn = "^0.0"
+imblearn = "^0.0"
+graphviz = "^0.19.2"
+pydot = "^1.4.2"
 
 [tool.poetry.dev-dependencies]
 jupyter = "^1.0.0"
